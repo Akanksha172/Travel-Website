@@ -1,0 +1,283 @@
+
+* {
+  padding: 0%;
+  margin: 0%;
+}
+body{
+  background-color: black;
+  font-family: 'Roboto', sans-serif;
+}
+/* navbar */
+#carouselExampleCaptions {
+  background-color: black;
+}
+.container-fluid i{
+  color: aliceblue;
+  margin-left: 6%;
+  margin-right: 0.5%;
+  font-size: 45px;
+  cursor: pointer;
+}
+.navbar-brand{
+  font-weight: 900;
+  font-size: 30px;
+  margin-right: 15%;
+  cursor: pointer;
+}
+.d-flex{
+  padding: 1% 5%;
+}
+.nav-item{
+  font-weight: 500;
+  font-size: 20px;
+  margin :0% 8% 0% 4%; 
+  cursor: pointer;
+}
+.carousel-item {
+  padding-top: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-radius: 10px;
+  padding-bottom: 2.5%;
+  cursor: pointer;
+}
+
+/* About */
+.container2{
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.container2 h2{
+  text-align: center;
+  color: gold;
+  padding-top: 2%;
+  padding-bottom: 2px;
+}
+.container2 h1{
+  color: white;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.card-body{
+  text-align: center;
+}
+.col2 h4{
+  font-size: 30px;
+  color: gold;
+}
+.col2 h3{
+  padding-top: 1%;
+  color: white;
+}
+.col3 p{
+  font-size: 16px;
+  color: white;
+  padding-right: 17%;
+  padding-left: 17%;
+}
+.card-body .col2 h2{
+  text-align: center;
+  font-size: 30px;
+  text-align: left;
+}
+/* Explore */
+.container3 
+{
+  margin: 0% 46% 0% 46% ;
+}
+.container3 .d-flex
+{
+  margin: 5% 0% 2% 0%;
+}
+
+
+/* Services */
+.container{
+  padding-left: 1%;
+  padding-right: 1%;
+}
+.container h2{
+  color: gold;
+  text-align: center;
+  padding-top: 6%;
+  padding-bottom: 5px;
+}
+.container h1{
+  color: white;
+  text-align: center;
+  padding-bottom: 5%;
+}
+.col{
+  border: 2px solid grey;
+  margin: 10px;
+  text-align: center;
+  padding:10px;
+  border-radius: 10px;
+  background-color: black;
+  cursor: pointer;
+}
+col :hover{
+  color: grey;
+}
+.col i{  
+  margin-top: 15px;
+  font-size: 50px;
+  color: gold;
+}
+.col p{
+  margin-top: 30px;
+  color: white;
+}
+
+/* Gallary */
+.row2{
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+  padding-top: 15px;
+
+}
+.row2 h1{
+  color: white;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.row2 h2{
+  color: gold;
+  text-align: center;
+  padding-top: 5%;
+}
+.text-center img{
+  border: 5px solid black;
+  transition: 1s;
+  cursor:pointer;
+}
+.text-center :hover{
+  transform: scale(1.5);
+}
+/* Footer */
+.foot{
+  padding-top: 1%;
+}
+.foot h3{
+  text-align: center;
+  color:gold;
+} 
+.footer2{
+  text-align: center;
+  padding: 3% 3% 0% 3%;
+}
+.footer2 .box2{
+  display: inline-block;
+  text-align: center;
+}
+.footer2 .share{
+  display:inline-block
+}
+.share{
+  padding :2% 4% 2% 4%;
+}
+.box2{
+  padding :2% 4% 2% 4%;
+}
+.box2 p{
+  color: white;
+}
+.box2 h3{
+  color: gold;
+}
+.box2 a{
+  display: block;
+  color:white;
+}
+.btn{
+  color: greenyellow;
+  border: 2px solid yellowgreen;
+}
+.btn:hover
+{
+  color: gold;
+}
+.share a{
+  color:white;
+  display:block;
+  font-size: 30px;
+  margin:5% 1% 5% 1%;
+}
+
+
+/* Responsive */
+@media (max-width : 765px){
+  .carousel-item img{
+    height: 400px;
+  }
+  .col p{
+    font-size: 13px;
+    margin-top: 20px;
+  }
+  .col h2{
+    font-size: 18px;
+  }
+  .col i{
+    font-size: 30px;
+  }
+  .text-center img{
+    height: 300px; ;
+    width: 230px;
+  }
+  .foot h3{
+    font-size: 20px;
+  }
+  .footer2 .box2{
+    display: block;
+  }
+  .col3 p{
+    padding: 0% 0% 0% 0%;
+  }
+  
+}
+@media (max-width : 500px){
+  .carousel-item img{
+    height: 250px;
+  }
+  .col p{
+    font-size: 12px;
+    margin-top: 18px;
+  }
+  .col i{
+    font-size: 28px;
+  }
+  .text-center img{
+    height: 220px; ;
+    width: 160px;
+  }
+  .foot h3{
+    font-size: 15px;
+  }
+  .footer2 .box2{
+    display: block;
+  }
+  .col3 p{
+    font-size: 12px;
+    padding: 0% 0% 0% 0%;
+  }
+}
+@media (min-width : 750px){
+  
+  .col p{
+    font-size: 20px;
+  }
+  .foot h3{
+    font-size: 23px;
+  }
+  .col3 p{
+    font-size: 20px;
+  }
+}
+/* Scrollbar */
+::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-thumb{
+  background: gold;
+  border-radius: 10px;
+}
