@@ -1,0 +1,29 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-fluid {
+    height: 20%;
+}
+
+.navbar-brand{
+    font-weight: 900;
+    font-size: 100px;
+    cursor: pointer;
+}
+
+.nav-item .nav-link 
+{
+    font-size: 200%;
+    width:100%;
+    margin: 0% 10% 0% 10%;
+}
+
+
+
