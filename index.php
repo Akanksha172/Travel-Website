@@ -24,7 +24,7 @@
 <body>
   <!-- Navbar -->
   <section class="navbar1" id="navbar1">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar fixed-top  navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
         <i data-aos="fade-right" data-aos-delay="150" class="fa-solid fa-plane-departure"></i>
         <a data-aos="fade-right" data-aos-delay="200" class="navbar-brand" href="#about">Travel</a>
@@ -200,6 +200,7 @@
     </div>
   </section>
   <!-- Service section ends -->
+
   <!-- Button section -->
   <section class="button-section" id="button-section">
     <div class="container3">
