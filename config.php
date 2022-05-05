@@ -70,7 +70,7 @@
           <p>Agree to terms and conditions.</p>
         </div>
         <div class="input_field">
-          <input type="submit" value="Register" class="btn" name="register">
+          <input type="submit" value="Register" class="btn" name="register" >
         </div>
       </div>
     </form>
@@ -99,8 +99,10 @@
   if($fname != "" && $lname != "" && $gender !="" && $pnumber !="" && $email !="" && $phone !="" && $address !="" && $check !="" ){
     $query = "INSERT INTO final values('$fname','$lname','$gender','$pnumber','$email','$phone','$address')";
     $data = mysqli_query($conn,$query);
-    
-    echo "<script>alert('Response submitted ! Thankyou...we will soon contact you');</script>";
+    echo "<script>
+          alert('Response submitted ! Thankyou...we will soon contact you');
+          window.location.href='index.php';
+          </script>";
     if($data){
     // echo " Inserted";
     }
@@ -108,4 +110,5 @@
       echo "NOT ";
     }
   }
+  
 ?>

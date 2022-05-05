@@ -22,9 +22,21 @@
               <a class="nav-link " aria-current="page" href="exploreWorld.php" data-aos="fade-right"
                 data-aos-delay="350">Explore World</a>
             </li>
+            <li class="nav-item" >
+              <a class="nav-link " aria-current="page" href="#" data-aos="fade-right"
+                data-aos-delay="350" >&nbsp&nbsp&nbsp&nbsp|</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="exploreIndia.php" data-aos="fade-right" data-aos-delay="500">Explore India</a>
             </li>
+          </ul>
+            <form class="d-flex">
+            <a class="btn btn-outline-success"  data-aos="fade-right" data-aos-delay="600"
+              href="index.php"
+              target="_blank">
+              HOME
+            </a>
+          </form>
         </div>
       </div>
     </nav>

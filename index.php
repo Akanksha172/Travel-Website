@@ -154,23 +154,6 @@
 
   <!-- About section end -->
 
-  <!-- Button section -->
-  <section class="button-section" id="button-section">
-    <div class="container3">
-      <form class="d-flex">
-        <a class="btn btn-outline-success"  data-aos="fade-right" data-aos-delay="600" href="https://www.yatra.com/" target="_blank">
-         Book-Now 
-        </a>
-      </form>
-      <form class="d-flex">
-        <a class="btn btn-outline-success"  data-aos="fade-right" data-aos-delay="600" href="explore.php" target="_blank">
-         Explore-it!
-        </a>
-      </form>
-    </div>
-  </section>
-  <!-- Button section ends -->
-
   <!-- Service section -->
   <section class="service" id="service">
     <div class="container">
@@ -185,7 +168,7 @@
         </div>
         <div class="col" data-aos="zoom-in-up" data-aos-delay="150">
           <i class="fa-solid fa-hotel"></i>
-          <h2>Affordable Hotels</h2>
+          <h2>Comfort Hotels</h2>
           <p>We will provide hotels as per your budget range.
           </p>
         </div>
@@ -217,6 +200,22 @@
     </div>
   </section>
   <!-- Service section ends -->
+  <!-- Button section -->
+  <section class="button-section" id="button-section">
+    <div class="container3">
+      <form class="d-flex">
+        <a class="btn btn-outline-success"  data-aos="fade-right" data-aos-delay="600" href="https://www.yatra.com/" target="_blank">
+         Book-Now 
+        </a>
+      </form>
+      <form class="d-flex">
+        <a class="btn btn-outline-success"  data-aos="fade-right" data-aos-delay="600" href="explore.php" target="_blank">
+         Explore-it!
+        </a>
+      </form>
+    </div>
+  </section>
+  <!-- Button section ends -->
 
   <!-- Gallery -->
   <section class="gallery" id="gallery">
